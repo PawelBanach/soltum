@@ -1,10 +1,10 @@
-import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
-import Img from "gatsby-image/withIEPolyfill"
-import styles from "./logo.module.scss"
+import React from 'react';
+import {graphql, StaticQuery} from 'gatsby';
+import Img from 'gatsby-image/withIEPolyfill';
+import styles from './logo.module.scss';
 
 const Logo = () => (
-<StaticQuery
+  <StaticQuery
     query={graphql`
       query {
         desktop: file(relativePath: { eq: "logo/logo1.png" }) {
@@ -16,20 +16,20 @@ const Logo = () => (
         }
       }
     `}
-    render={(data => {
-        const imageData = data.desktop.childImageSharp.fluid;
-        return (
-            <div className={styles.logoContainer}>
-                <Img 
-                  // Must be styled inline
-                  style={{ minWidth: `400px`, minHeight: `80px` }}
-                  fixed={imageData}
-                  objectFit="cover"
-                />
-            </div>
-        );
+    render={((data) => {
+      const imageData = data.desktop.childImageSharp.fluid;
+      return (
+        <div className={styles.logoContainer}>
+          <Img
+            // Must be styled inline
+            style={{minWidth: `400px`, minHeight: `80px`}}
+            fixed={imageData}
+            objectFit="cover"
+          />
+        </div>
+      );
     })}
-/>
-)
+  />
+);
 
 export default Logo;

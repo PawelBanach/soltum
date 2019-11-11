@@ -1,21 +1,21 @@
-import PropTypes from "prop-types"
-import React, { useState, useEffect } from "react"
-import Logo from "./logo-components"
-import HeaderItem from "./header-item"
-import styles from "./header.module.scss"
+import PropTypes from 'prop-types';
+import React, {useState, useEffect} from 'react';
+import Logo from './logo-components';
+import HeaderItem from './header-item';
+import styles from './header.module.scss';
 
 const Header = () => {
   const [navBackground, setNavBackground] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      let show = window.scrollY > window.innerHeight - 100;
+      const show = window.scrollY > window.innerHeight - 100;
       setNavBackground(show);
-    }
-    document.addEventListener('scroll', handleScroll)
+    };
+    document.addEventListener('scroll', handleScroll);
     return () => {
-      document.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <header className={styles.header}>
@@ -30,15 +30,15 @@ const Header = () => {
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

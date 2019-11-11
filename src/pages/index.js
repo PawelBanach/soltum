@@ -1,12 +1,12 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import BackgroundSection from '../components/background-section'
-import Story from '../components/sections/story'
-import Process from '../components/sections/process'
-import Technologies from '../components/sections/technologies'
-import Projects from '../components/sections/projects'
-import Contect from '../components/sections/contact'
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import BackgroundSection from '../components/background-section';
+import Story from '../components/sections/story';
+import Process from '../components/sections/process';
+import Technologies from '../components/sections/technologies';
+import Projects from '../components/sections/projects';
+import Contect from '../components/sections/contact';
 // TODO:
 // - Add hover to header
 // - Add section STORY
@@ -30,6 +30,6 @@ const IndexPage = () => (
     <Projects />
     <Contect />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

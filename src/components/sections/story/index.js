@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react';
 
 const Story = () => {
-    return (
-        <div><h1>STORY</h1></div>
-    )
-}
+  return (
+    <div><h1>STORY</h1></div>
+  );
+};
 
 export default Story;
