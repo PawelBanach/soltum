@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React, { useState, useEffect } from "react"
-import Logo from "../logo-components/logo"
+import Logo from "./logo-components"
 import HeaderItem from "./header-item"
 import styles from "./header.module.scss"
 
@@ -16,7 +16,7 @@ const Header = () => {
       document.removeEventListener('scroll', handleScroll)
     }
   }, [])
-  console.log(styles)
+
   return (
     <header className={styles.header}>
       <nav className={`${navBackground ? styles.whiteBg : styles.transparentBg} ${styles.nav}`}>

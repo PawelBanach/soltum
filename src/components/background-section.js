@@ -37,6 +37,7 @@ const BackgroundSection = ({ className, children }) => (
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 height: `100vh`,
+                lineHeigh: `100vh`,
                 overflow: `auto`,
               }}
               // To "force" the classic fading in of every image (especially on

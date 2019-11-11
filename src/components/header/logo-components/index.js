@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import Img from "gatsby-image/withIEPolyfill"
+import styles from "./logo.module.scss"
 
 const Logo = () => (
 <StaticQuery
@@ -18,18 +19,12 @@ const Logo = () => (
     render={(data => {
         const imageData = data.desktop.childImageSharp.fluid;
         return (
-            <div style={{
-                maxWidth: `500px`,
-                maxHeight: `100px`,
-                display: `block`,
-                marginLeft: `50px`,
-            }}>
-                <Img style={{
-                    minWidth: `400px`,
-                    minHeight: `80px`,
-                }}
-                fixed={imageData}
-                objectFit="cover"
+            <div className={styles.logoContainer}>
+                <Img 
+                  // Must be styled inline
+                  style={{ minWidth: `400px`, minHeight: `80px` }}
+                  fixed={imageData}
+                  objectFit="cover"
                 />
             </div>
         );
