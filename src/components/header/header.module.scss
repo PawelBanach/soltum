@@ -1,0 +1,39 @@
+.header {
+    display: block;
+    background: black;
+}
+
+.nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: 'flex';
+    z-index: 1;
+    color: hsla(0,0%,0%,0.7);
+    transition: 1s ease;
+    
+}
+
+.transparentBg {
+    background-color: transparent;
+}
+
+.whiteBg {
+    background-color: #fff;
+    box-shadow: 0px 1px 20px -10px rgba(0,0,0,0.75),
+}
+
+.itemList {
+    margin-left: auto;
+}
+
+.menu {
+    float: left;
+    display: block;
+}
+
+.menu {
+    float: right;
+    display: block;
+}
