@@ -5,7 +5,9 @@
         "node": true
     },
     "extends": [
-        "google"
+        "google",
+        "eslint:recommended",
+        "plugin:react/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
