@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div><h1>PROJECTS</h1></div>
+    <div className={`section`}><h1>PROJECTS</h1></div>
   );
 };
 

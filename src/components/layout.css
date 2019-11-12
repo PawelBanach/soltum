@@ -208,6 +208,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  font-weight: 400;
+  opacity: 0.75;
 }
 img {
   max-width: 100%;
@@ -264,12 +266,19 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Source Sans Pro',sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 18px;
   line-height: 1.1;
+  opacity: 0.75;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  letter-spacing: 3.5px;
+  transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  font-weight: 500;
 }
 h4 {
   margin-left: 0;
@@ -619,4 +628,44 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.section {
+  padding: 60px;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+}
+
+.grey {
+  background: rgb(187,187,187);
+  background: radial-gradient(circle, rgba(187,187,187,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.w25 {
+  width: 25%;
+  float: left;
+}
+
+.w30 {
+  width: 30%;
+  float: left;
+}
+
+.w50 {
+  width: 50%;
+  float: left;
+}
+
+.w70 {
+  width: 70%;
+  float: left;
+}
+
+.w100 {
+  width: 100%;
 }

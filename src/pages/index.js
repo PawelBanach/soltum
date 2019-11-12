@@ -23,7 +23,7 @@ import Contect from '../components/sections/contact';
 const IndexPage = () => (
   <Layout>
     <BackgroundSection />
-    <SEO title="Home" />
+    {/* <SEO title="Home" /> */}
     <Story />
     <Process />
     <Technologies />

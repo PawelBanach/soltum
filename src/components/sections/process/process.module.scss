@@ -1,0 +1,65 @@
+.process {
+    width: 50%;
+}
+
+.stepBlock {
+    display: inline-block;
+    width: 100%;
+    min-height: 36px;
+    padding: 15px 0px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    float: right;
+}
+
+.title {
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 3.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: .5;
+    transition: opacity .25s ease-in-out;
+    align-self: flex-start;
+    float: right;
+    &:hover {
+        opacity: 1;
+    };
+    line-height: 36px;
+    margin-right: 20px;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transition: opacity 2s linear, height 0s 2s;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: visibility 0s 2s;
+}
+
+.descriptionContainer {
+    text-align: justify;
+    line-height: 2em;
+    font-size: 16px;
+    display: block;
+}
