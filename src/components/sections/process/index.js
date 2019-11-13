@@ -26,30 +26,35 @@ const Process = () => {
             title={`Contact`}
             onHover={onHover}
             onLeave={onLeave}
+            hover={step === 1}
           />
           <Step
             number={2}
             title={`Research`}
             onHover={onHover}
             onLeave={onLeave}
+            hover={step === 2}
           />
           <Step
             number={3}
             title={`Design`}
             onHover={onHover}
             onLeave={onLeave}
+            hover={step === 3}
           />
           <Step
             number={4}
             title={`Development`}
             onHover={onHover}
             onLeave={onLeave}
+            hover={step === 4}
           />
           <Step
             number={5}
             title={`Launch`}
             onHover={onHover}
             onLeave={onLeave}
+            hover={step === 5}
           />
         </div>
         <div className={`w50 align-center`}>

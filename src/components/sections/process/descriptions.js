@@ -55,7 +55,7 @@ const Descriptions = ({step}) => (
 );
 
 Descriptions.propTypes = {
-  step: PropTypes.number.isRequired,
+  step: PropTypes.number,
 };
 
 export default Descriptions;

@@ -32,7 +32,7 @@ const ProcessImage = ({step}) => (
 );
 
 ProcessImage.propTypes = {
-  step: PropTypes.number.isRequired,
+  step: PropTypes.number,
 };
 
 export default ProcessImage;
