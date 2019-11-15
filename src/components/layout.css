@@ -640,10 +640,16 @@ pre tt:after {
 .grey {
   background: rgb(187,187,187);
   background: radial-gradient(circle, rgba(187,187,187,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
 }
 
 .align-center {
   text-align: center;
+}
+
+.align-justify {
+  display: block;
+  text-align: justify;
 }
 
 .w25 {

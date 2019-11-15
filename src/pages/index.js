@@ -8,13 +8,11 @@ import Technologies from '../components/sections/technologies';
 import Projects from '../components/sections/projects';
 import Contect from '../components/sections/contact';
 // TODO:
-// - Add hover to header
-// - Add section STORY
-// - Add section PROCESS
 // - Add section TECHNOLOGIES
 // - Add section PROJECTS
 // - Add section CONTACT
 // - Add footer
+// ^ Needed for 1.0.0v release
 // - Make PWA
 // - Make mobile version
 // - Audit with lighthouse
