@@ -662,7 +662,18 @@ pre tt:after {
   float: left;
 }
 
+.w40 {
+  width: 40%;
+  float: left;
+  margin-left: 50px;
+}
+
 .w50 {
+  width: 50%;
+  float: left;
+}
+
+.w60 {
   width: 50%;
   float: left;
 }
