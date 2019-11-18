@@ -632,9 +632,11 @@ pre tt:after {
 
 .section {
   padding: 60px;
-  font-size: 14px;
+  font-size: 14px;  
   display: inline-block;
   width: 100%;
+  height: 90vh;
+  min-height: 600px;
 }
 
 .grey {
@@ -654,6 +656,7 @@ pre tt:after {
 
 .w25 {
   width: 25%;
+  height: 100%;
   float: left;
 }
 

@@ -4,7 +4,7 @@ import PassionImage from './passion-image';
 
 const Story = () => {
   return (
-    <div className={`section`}>
+    <div className={`section`} id="story">
       <div className={`w50`}>
         <h3>
           {`Let's reach the summit together!`}

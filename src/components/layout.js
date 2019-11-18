@@ -30,9 +30,10 @@ const Layout = ({children}) => {
       <div>
         <main>{children}</main>
       </div>
-      <footer>
+      {/* TODO: Make footer */}
+      {/* <footer>
         Footer
-      </footer>
+      </footer> */}
     </>
   );
 };

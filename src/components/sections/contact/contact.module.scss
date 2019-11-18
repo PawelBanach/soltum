@@ -1,0 +1,87 @@
+.form {
+  padding: 20px;
+
+  input {
+    display: block;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    width: 100%;
+    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.15;
+    color: rgb(42, 42, 48);
+    resize: none;
+    padding: 6px 0px;
+    border-width: 0px 0px 2px;
+    border-image: initial;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    outline: none;
+    background: transparent;
+    margin-bottom: 20px;
+    transition: border 0.5s;
+    &:hover {
+      border-bottom: 1px solid rgb(200, 200, 200);
+    }
+  }
+  
+  textarea {
+    display: block;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    width: 100%;
+    font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.15;
+    color: rgb(42, 42, 48);
+    resize: none;
+    padding: 6px 0px;
+    border-width: 0px 0px 2px;
+    border-image: initial;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    outline: none;
+    background: transparent;
+    margin-bottom: 20px;
+    transition: border 0.5s;
+    &:hover {
+      border-bottom: 1px solid rgb(200, 200, 200);
+    }
+  }
+
+  button {
+    font-size: 12px;
+    background-color: #E1E1E1;
+    background-image: linear-gradient(#E1E1E1, #A1A1A1);
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    color: black; 
+    letter-spacing: 3.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px;
+    opacity: .5;
+    transition: opacity .25s ease-in-out;
+    align-self: flex-start;
+    float: right;
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+.description {
+  padding: 20px;
+  height: 100%;
+  text-align: justify;
+}

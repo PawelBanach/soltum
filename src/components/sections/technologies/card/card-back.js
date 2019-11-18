@@ -11,7 +11,7 @@ const CardBack = (props) => (
 );
 
 CardBack.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.object.isRequired,
 };
 
 export default CardBack;

@@ -25,7 +25,7 @@ import TypeScript from '../../../images/technologies/typescript.svg';
 
 const Technologies = () => {
   return (
-    <div className={`section`}>
+    <div className={`section`} id="technologies">
       <h3 className={`align-center`}>
         {`Technologies`}
       </h3>

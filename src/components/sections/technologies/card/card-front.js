@@ -13,7 +13,7 @@ const CardFront = (props) => (
 );
 
 CardFront.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.object.isRequired,
 };
 
 export default CardFront;

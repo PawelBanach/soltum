@@ -1,11 +1,20 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import PropTypes from 'prop-types';
+import {Link, animateScroll as scroll} from 'react-scroll';
 import styles from './header.module.scss';
 
 const HeaderItem = ({title}) => (
-  <Link className={styles.item}>
+  <Link
+    activeClass="active"
+    className={styles.item}
+    to={title}
+    smooth={true}
+    offset={-87}
+  >
     {title}
   </Link>
 );
-
+HeaderItem.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 export default HeaderItem;

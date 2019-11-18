@@ -8,11 +8,9 @@ import Technologies from '../components/sections/technologies';
 import Projects from '../components/sections/projects';
 import Contect from '../components/sections/contact';
 // TODO:
-// - Add section TECHNOLOGIES
-// - Add section PROJECTS
-// - Add section CONTACT
-// - Add footer
+// - Unmock texts
 // ^ Needed for 1.0.0v release
+// - Add footer
 // - Make PWA
 // - Make mobile version
 // - Audit with lighthouse

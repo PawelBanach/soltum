@@ -15,7 +15,7 @@ const Process = () => {
   };
 
   return (
-    <div className={`section grey`}>
+    <div className={`section grey`} id="process">
       <h3 className={`align-center`}>
         {`Check our process!`}
       </h3>
