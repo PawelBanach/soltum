@@ -10,6 +10,8 @@ import Contect from '../components/sections/contact';
 // TODO:
 // - Unmock texts
 // ^ Needed for 1.0.0v release
+// - information about cookies
+// - reCaptcha
 // - Add footer
 // - Make PWA
 // - Make mobile version
