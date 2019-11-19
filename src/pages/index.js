@@ -7,17 +7,7 @@ import Process from '../components/sections/process';
 import Technologies from '../components/sections/technologies';
 import Projects from '../components/sections/projects';
 import Contect from '../components/sections/contact';
-// TODO:
-// - Unmock texts
-// ^ Needed for 1.0.0v release
-// - information about cookies
-// - reCaptcha
-// - Add footer
-// - Make PWA
-// - Make mobile version
-// - Audit with lighthouse
-// - Optimize SEO
-// - Add not found page
+
 const IndexPage = () => (
   <Layout>
     <BackgroundSection />
