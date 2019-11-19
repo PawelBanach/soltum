@@ -70,7 +70,8 @@ const Contact = () => {
           Having a new project in mind? Need help with an existing project?
           Looking for an experienced team of developers?
           No matter at what point you are with your project,
-          we are happy to help.
+          we are happy to help!
+          Send us short message and we will contact you soon!
           `}
         </div>
         <form onSubmit={handleSubmit} className={styles.form}>

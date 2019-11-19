@@ -36,11 +36,10 @@ const BoardOnSlide = ({goToPrevSlide, goToNextSlide}) => {
         </div>
         <div>
           <div className={`align-justify ${styles.text}`}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-            lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-            Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-            in sodales nibh feugiat in.
+            Web application that allows you to process an image
+            of a physical table by taking a picture and mapping
+            it in a virtual table. The project is based on
+            reading QR codes and processing them.
           </div>
         </div>
         <div className={styles.technologiesList}>

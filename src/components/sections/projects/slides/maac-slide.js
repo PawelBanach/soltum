@@ -35,11 +35,11 @@ const MaacSlide = ({goToPrevSlide, goToNextSlide}) => {
           </div>
         </div>
         <span className={`align-justify ${styles.text}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
+          Simple IT tool which validates iOS and Android
+          applications against standards WCAG 2.1 which
+          covers a wide range of recommendations for
+          making Web content more accessible
+          especially for people with different disabilities.
         </span>
         <div className={styles.technologiesList}>
           <ul>

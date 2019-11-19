@@ -34,11 +34,11 @@ const Technologies = () => {
           <div>
             <h3>MAINTANCE and CLOUD SERVICES</h3>
             <span className='align-justify'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
+              Adjust your infrstructure to
+              to be highscalable and distributed. We offer services
+              in the field of architecture maintenance and upgrades.
+              Allow us to create highly efficient and scalable architecture
+              or transfer your services to the cloud.
             </span>
           </div>
           <div>
@@ -56,11 +56,10 @@ const Technologies = () => {
           <div>
             <h3>INFRASTRUCTURE</h3>
             <span className='align-justify'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
+              The amount of data is beginning to overwhelm your application,
+              you would like to have a responsive database with quick search.
+              We have been through this, we have experience
+              in creating fast and scalable infrastructure.
             </span>
           </div>
           <div>
@@ -75,13 +74,12 @@ const Technologies = () => {
       <div className={styles.cardContainer}>
         <Card>
           <div>
-            <h3>WEB SERVICES</h3>
+            <h3>WEB DEVELOPMENT</h3>
             <span className='align-justify'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
+              You have an idea for a awesome web application?
+              We offer services in the field of many technologies.
+              Create with us fast, secure and reliable web applications,
+              adjusted to your business needs.
             </span>
           </div>
           <div>
@@ -96,13 +94,11 @@ const Technologies = () => {
       <div className={styles.cardContainer}>
         <Card>
           <div>
-            <h3>WEB DESIGN</h3>
+            <h3>PRODUCT DESIGN</h3>
             <span className='align-justify'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
+              Craft amazin user experiences for your products.
+              Solve the design problems and improve first impression
+              of your products through beautiful interfaces.
             </span>
           </div>
           <div>

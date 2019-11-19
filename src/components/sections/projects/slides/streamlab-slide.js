@@ -34,13 +34,15 @@ const StreamlabSlide = ({goToPrevSlide, goToNextSlide}) => {
             <LeftArrow onClick={goToPrevSlide}/>
           </div>
         </div>
-        <span className={`align-justify ${styles.text}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nulla convallis sem vel arcu feugiat, ut faucibus. Ut elementum,
-              lorem ut eleifend finibus, est sem posuere lorem, nisi eros.
-              Proin faucibus porta eros eget elementum. Scelerisque risus dui,
-              in sodales nibh feugiat in.
-        </span>
+        <div className={`align-justify ${styles.text}`}>
+            StreamLab is a powerful desktop application,
+            made for sharing synchronously multimedia resources,
+            like photos and medical images (DICOM) between participants of session.
+            StreamLab allows you to create consultation sessions where users can
+            load selected media such as photos and video.
+            In-real time users can draw, write, zoom and use other tools,
+            and the results is immediately shard between rest of participants.
+        </div>
         <div className={styles.technologiesList}>
           <ul>
             <li>Electron</li>

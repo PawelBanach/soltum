@@ -6,24 +6,28 @@ const Descriptions = ({step}) => (
   <div className={styles.descriptionContainer}>
     <div className={step === 1 ? styles.visible : styles.hidden }>
       {`
-        The first step of the whole design process begins with the
-        customer. We discuss all of the important details with them
-        in order to better understand the project’s purpose, the
-        audience it caters to, the problems it can solve, and
-        the overall vision of the customer.
+        The first of the whole design process begins with the 
+        customer. We discuss requirements set out in the project 
+        in detail in order to better understand the project’s purpose, 
+        often we also provide advice. Project vision is one of the 
+        most important stages in our process, 
+        therefore we pay special attention to it.
       `}
     </div>
     <div className={step === 2 ? styles.visible : styles.hidden }>
       {`
-        After talking with the customer, we begin our research.
-        We look at particular details about the product in order
-        to better understand the market it is going into.
+        The research is can be described as adapting the technology 
+        to the proposed solution. At this stage, the architecture 
+        of the entire system is established. After the client's 
+        acceptance it's passed to the next stages. 
+        The infrastructure in the form determined at this 
+        stage will be delivered to the client along with the entire project.
+        
       `}
     </div>
     <div className={step === 3 ? styles.visible : styles.hidden }>
       {`
-        If the customer gives the project concept a “go”,
-        the next step is to create wireframes. Wireframes are
+        The design phase begins with creating wireframes. Wireframes are
         interactive schematic pages of the site or application’s screens,
         like a screen blueprint. Although the wireframes have little design
         go into them initially, they allow us to make a skeleton of the
