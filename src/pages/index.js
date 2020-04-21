@@ -11,7 +11,12 @@ import Contect from '../components/sections/contact';
 const IndexPage = () => (
   <Layout>
     <BackgroundSection />
-    {/* <SEO title="Home" /> */}
+    <SEO
+      lang="pl"
+      author="Paweł Banach"
+      description= "SOLTUM - firma z krakowa działająca w branży budowlanej. Kierownik budowy Kraków. Kierownik budowy małopolska. Inspektor nadzoru budowlanego. Inspektor nadzory inwestorskiego. Przegląd techniczny budynków. Odbiory budynków i mieszkań Kraków. Inwentaryzacje budynków i mieszkań. Wykonanie kosztorysów budowlanych."
+      title="SOLTUM - Budownictwo Kraków"
+    />
     <Story />
     <Process />
     <Technologies />

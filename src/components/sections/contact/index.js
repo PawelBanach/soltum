@@ -17,9 +17,7 @@ const Contact = () => {
     {
       Destination: {
         ToAddresses: [
-          'pawel.banach@codeverest.io',
-          'bartosz.szmit@codeverest.io',
-          'michal.kawalek@codeverest.io',
+          'mateuszbanach90@gmail.com',
         ],
       },
       Message: {
@@ -27,17 +25,17 @@ const Contact = () => {
           Text: {
             Charset: 'UTF-8',
             Data: `
-            Name: ${name},
+            Imię i Nazwisko: ${name},
 
             Email: ${email},
 
-            Message: ${message}
+            Wiadomość: ${message}
             `,
           },
         },
         Subject: {
           Charset: 'UTF-8',
-          Data: `Strona Codeverest - from ${email}`,
+          Data: `Strona SOLTUM - from ${email}`,
         },
       },
       Source: 'pawel.banach@codeverest.io',
@@ -52,9 +50,9 @@ const Contact = () => {
       setName('');
       setEmail('');
       setMessage('');
-      alert('Message was sent!');
+      alert('Wiadomość została wysłana!');
     }).catch((error) => {
-      alert('Message cannot be sent!');
+      alert('Wiadomość nie może zostać wysłana!');
     });
   };
 
@@ -63,20 +61,24 @@ const Contact = () => {
       <div className={`w25`} />
       <div className={`w50`}>
         <h3>
-          {`Let's build something awesome!`}
+          {`Zbudujmy razem coś wielkiego!`}
         </h3>
         <div className={styles.description}>
-          {`
-          Having a new project in mind? Need help with an existing project?
-          Looking for an experienced team of developers?
-          No matter at what point you are with your project,
-          we are happy to help!
-          Send us short message and we will contact you soon!
-          `}
+          Masz zaplanowany zakup nieruchomości? Szukasz pomocy przy istniejącym
+          budynku? Potrzebujesz doświadczonego zespołu, który posida wiele
+          lat praktyki w branży?
+          <br/>
+          <br/>
+          Nie ważne na jakim etapie projektu
+          jesteś, jesteśmy tu by Ci pomóc.
+          <br/>
+          <br/>
+          Wyślij nam wiadomość lub zadzwoń
+          na numer <b>798 651 906</b> a skontaktujemy się z Tobą wkrótce!
         </div>
         <form onSubmit={handleSubmit} className={styles.form}>
           <label>
-            Name
+            Imię i Nazwisko
             <input
               type="text"
               name="name"
@@ -98,7 +100,7 @@ const Contact = () => {
             />
           </label>
           <label>
-            Message
+            Wiadomość
             <textarea
               name="message"
               id="message"
@@ -109,7 +111,7 @@ const Contact = () => {
               required
             />
           </label>
-          <button type="submit">Send</button>
+          <button type="submit">Wyślij</button>
         </form>
       </div>
       <div className={`w25`} />

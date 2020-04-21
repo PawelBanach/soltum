@@ -1,6 +1,6 @@
 .cardContainer {
   display: block;
-  width: 25%;
+  width: 33%;
   float: left;
 }
 
@@ -8,6 +8,15 @@
   width: 100px;
   height: 100px;
   padding: 20px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+
+.cardImage {
   filter: grayscale(100%);
   transition: filter 0.5s;
 

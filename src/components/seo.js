@@ -1,3 +1,4 @@
+/* eslint-disable require-jsdoc */
 /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
@@ -73,7 +74,7 @@ function SEO({description, lang, meta, title}) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pl`,
   meta: [],
   description: ``,
 };

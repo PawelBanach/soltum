@@ -7,10 +7,10 @@ const Logo = () => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "logo/logo1.png" }) {
+        desktop: file(relativePath: { eq: "logo/LogoSoltum.png" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 500) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            fluid(quality: 100, maxWidth: 400) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -22,7 +22,7 @@ const Logo = () => (
         <div className={styles.logoContainer}>
           <Img
             // Must be styled inline
-            style={{minWidth: `400px`, minHeight: `80px`}}
+            style={{minWidth: `250px`, minHeight: `75px`}}
             fixed={imageData}
             objectFit="cover"
           />

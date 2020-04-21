@@ -1,21 +1,22 @@
 import React, {useState} from 'react';
 import styles from './projects.module.scss';
-import BoardOnSlide from './slides/board-on-slide';
-import MaacSlide from './slides/maac-slide';
-import StreamlabSlide from './slides/streamlab-slide';
+import ApartmentSlide from './slides/apartment-slide';
+import BuildingSlide from './slides/building-slide';
+
+const SLIDES_NUMBER = 2;
 
 const Projects = () => {
   const [projectsCounter, setProjectsCounter] = useState(0);
   const [translateValue, setTranslateValue] = useState(0);
 
   const goToPrevSlide = () => {
-    const counter = (projectsCounter + 2) % 3;
+    const counter = (projectsCounter + (SLIDES_NUMBER - 1)) % SLIDES_NUMBER;
     setTranslateValue( - (counter * slideWidth()));
     setProjectsCounter(counter);
   };
 
   const goToNextSlide = () => {
-    const counter = (projectsCounter + 1) % 3;
+    const counter = (projectsCounter + 1) % SLIDES_NUMBER;
     setTranslateValue( - (counter * slideWidth()));
     setProjectsCounter(counter);
   };
@@ -32,15 +33,11 @@ const Projects = () => {
             transition: 'transform ease-out 0.45s',
           }}
         >
-          <BoardOnSlide
+          <ApartmentSlide
             goToPrevSlide={goToPrevSlide}
             goToNextSlide={goToNextSlide}
           />
-          <MaacSlide
-            goToPrevSlide={goToPrevSlide}
-            goToNextSlide={goToNextSlide}
-          />
-          <StreamlabSlide
+          <BuildingSlide
             goToPrevSlide={goToPrevSlide}
             goToNextSlide={goToNextSlide}
           />

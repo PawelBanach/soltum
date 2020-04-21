@@ -7,22 +7,25 @@ const Story = () => {
     <div className={`section`} id="story">
       <div className={`w50`}>
         <h3>
-          {`Let's reach the summit together!`}
+          {`O firmie`}
         </h3>
         <span className={styles.content}>
           {`
-            Our team is a collection of personalities.
-            As a developers, devops and designers
-            we gathered experience in various fields.
-            It led us to understant the challanges
-            involved in building great software.
+            Firma SOLTUM oferuje usługi inżynieryjne w szeroko
+            rozumianej branży budowlanej.
+            Cechy które charakteryzują nasz zespół to: wiedza,
+            doświadczenie oraz pasja związana z branża budowlaną.
+            Każde zadanie traktujemy indywidualnie, starając się
+            sprostać wymaganiom inwestora. 
           `}
           <br/>
           <br/>
-          {`As Codeverest we want to build ours and yours future`}
+          {`Lata spędzone w branży budowlanej zaowocowały bardzo dobrą
+           znajomością zagadnień technicznych, finansowych
+            oraz administracyjno-prawnych.`}
           <br/>
           <br/>
-          {`Be part of this journey`}
+          {`Zapraszamy do zapoznania się z naszą ofertą.`}
         </span>
       </div>
       <div className={`w50`}>

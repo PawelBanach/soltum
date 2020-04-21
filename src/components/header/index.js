@@ -22,11 +22,11 @@ const Header = () => {
       <nav className={`${navBackground ? styles.whiteBg : styles.transparentBg} ${styles.nav}`}>
         <Logo className={styles.logo}/>
         <div className={styles.menu}>
-          <HeaderItem title="contact" />
-          <HeaderItem title="projects" />
-          <HeaderItem title="technologies" />
-          <HeaderItem title="process" />
-          <HeaderItem title="story" />
+          <HeaderItem title="kontakt" to="contact"/>
+          <HeaderItem title="projekty" to="projects"/>
+          <HeaderItem title="uprawnienia" to="technologies"/>
+          <HeaderItem title="zakres usług" to="process"/>
+          <HeaderItem title="O firmie" to="story"/>
         </div>
       </nav>
     </header>
