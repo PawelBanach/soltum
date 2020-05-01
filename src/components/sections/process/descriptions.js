@@ -122,6 +122,23 @@ const Descriptions = ({step}) => (
         <li className="line-item">jak długo potrwają roboty budowlane</li>
       </ul>
     </div>
+    <div className={step === 7 ? styles.visible : styles.hidden }>
+      <p>
+        Inwentaryzacja budowlana potrzebna jest inwestorowi, który chce
+        mieć aktualny obraz istniejącego budynku. Czasem nie posiada on
+        dokumentacji projektowej w ogóle (zaginęła, jest niekompletna,
+        uległa zniszczeniu) lub od czasu jej wykonania zaszły zmiany i jest
+        ona po prostu nieaktualna. Rzeczywisty obraz budynku, w postaci
+        aktualnej inwentaryzacji, przydatny jest m. in. do: planowania
+        prac remontowych, nadbudowy, rozbudowy, projektowych (aranżacji
+        wnętrz, nowych instalacji, urządzeń, rozbiórki), wyliczenia
+        powierzchni użytkowej lokalu (najem, sprzedaż), wystąpienia
+        z wnioskiem o uzyskanie samodzielności lokalu, jego adaptacji,
+        zmiany sposobu użytkowania, legalizacji samowoli budowlanej,
+        rozliczenia wykonawcy ze zleconych prac (np. wyliczenie powierzchni
+        ścian, elewacji, ułożonych płytek,).
+      </p>
+    </div>
   </div>
 );
 

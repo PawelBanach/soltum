@@ -9,7 +9,7 @@ import RightArrow from '../right-arrow';
 const BuildingSlide = ({goToPrevSlide, goToNextSlide}) => {
   const data = useStaticQuery(graphql`
     query {
-      desktop: file(relativePath: { eq: "projects/building.jpg" }) {
+      desktop: file(relativePath: { eq: "projects/house.jpg" }) {
         childImageSharp {
           fixed(quality: 100, width: 600) {
             ...GatsbyImageSharpFixed_withWebp_tracedSVG
@@ -21,13 +21,13 @@ const BuildingSlide = ({goToPrevSlide, goToNextSlide}) => {
 
   return (
     <div className={`slide ${styles.slide}`}>
-      <div className={`w60`}>
+      <div className={`w50`}>
         <Img fixed={data.desktop.childImageSharp.fixed} />
       </div>
-      <div className={`w40`}>
+      <div className={`w50`}>
         <div className={styles.header}>
           <div className={`w70`}>
-            <h3 className={`align-center`}>Osiedle Avia - Kraków</h3>
+            <h3 className={`align-center`}>Kierownik budowy</h3>
           </div>
           <div className={`w30`}>
             <RightArrow onClick={goToNextSlide}/>

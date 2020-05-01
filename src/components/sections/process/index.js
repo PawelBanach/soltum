@@ -20,7 +20,7 @@ const Process = () => {
         {`Zakres usług`}
       </h3>
       <div className={`w100`}>
-        <div className={`w30`}>
+        <div className={`w35`}>
           <Step
             number={1}
             title={`Kierownik Budowy`}
@@ -44,14 +44,14 @@ const Process = () => {
           />
           <Step
             number={4}
-            title={`Odbiory budynków i mieszkań`}
+            title={`Odbiory mieszkań i domów`}
             onHover={onHover}
             onLeave={onLeave}
             hover={step === 4}
           />
           <Step
             number={5}
-            title={`Inwentaryzacje budynków i mieszkań`}
+            title={`Inwentaryzacje`}
             onHover={onHover}
             onLeave={onLeave}
             hover={step === 5}
@@ -63,11 +63,18 @@ const Process = () => {
             onLeave={onLeave}
             hover={step === 6}
           />
+          <Step
+            number={7}
+            title={`Projektowanie rusztowań systemu LAYHER`}
+            onHover={onHover}
+            onLeave={onLeave}
+            hover={step === 7}
+          />
         </div>
-        <div className={`w70 padding-left-50`}>
+        <div className={`w65 padding-left-50`}>
           <Descriptions step={step} />
         </div>
-        <div className={`w70 padding-left-50 ${step == null ? '' : styles.hidden}`}>
+        <div className={`w65 padding-left-50 ${step == null ? '' : styles.hidden}`}>
           <div className={styles.descriptionContainer}>
             <p>
               Zapoznaj się z usługami jakie oferujemy!

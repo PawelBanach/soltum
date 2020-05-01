@@ -199,8 +199,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: #5a4e47;
-  font-family: 'Source Sans Pro',sans-serif;
+  color: #000;
+  font-family: 'Chakra Petch',sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -265,8 +265,8 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: #5a4e47;
-  font-family: 'Source Sans Pro',sans-serif;
+  color: #000;
+  font-family: 'Chakra Petch',sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 18px;
@@ -601,7 +601,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  font-family: "Chakra Petch", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
@@ -696,7 +696,12 @@ pre tt:after {
 }
 
 .w60 {
-  width: 50%;
+  width: 60%;
+  float: left;
+}
+
+.w65 {
+  width: 65%;
   float: left;
 }
 

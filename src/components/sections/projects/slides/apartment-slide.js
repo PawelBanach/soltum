@@ -21,13 +21,15 @@ const ApartmentSlide = ({goToPrevSlide, goToNextSlide}) => {
 
   return (
     <div className={`slide ${styles.slide}`}>
-      <div className={`w60`}>
+      <div className={`w50`}>
         <Img fixed={data.desktop.childImageSharp.fixed} />
       </div>
-      <div className={`w40`}>
+      <div className={`w50`}>
         <div className={styles.header}>
           <div className={`w70`}>
-            <h3 className={`align-center`}>Lokal Ułsugowo - Kraków</h3>
+            <h3 className={`align-center`}>
+              Odbiór techniczny
+            </h3>
           </div>
           <div className={`w30`}>
             <RightArrow onClick={goToNextSlide}/>

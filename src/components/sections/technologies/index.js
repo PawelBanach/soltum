@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './card';
 import styles from './technologies.module.scss';
 import BuildingImage from './building-image';
-import ArchitectureImage from './architecture-image';
+// import ArchitectureImage from './architecture-image';
 import WaterImage from './water-image';
 
 const Technologies = () => {
@@ -34,7 +34,7 @@ const Technologies = () => {
           </div>
         </Card>
       </div>
-      <div className={styles.cardContainer}>
+      {/* <div className={styles.cardContainer}>
         <Card>
           <div>
             <h3>ARCHITEKTONICZNE</h3>
@@ -57,11 +57,11 @@ const Technologies = () => {
             </span>
           </div>
         </Card>
-      </div>
+      </div> */}
       <div className={styles.cardContainer}>
         <Card>
           <div>
-            <h3>SANITARNE</h3>
+            <h3>INSTALACJI SANITARNYCH</h3>
             <WaterImage className={styles.cardImage} />
           </div>
           <div>
